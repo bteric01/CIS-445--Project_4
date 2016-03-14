@@ -1,0 +1,17 @@
+ 
+                                                                                                                                                                                                                                                                
+ 
+                              Gini       Level for     Calculated      New                                                       Gini
+Obs    Variable            Statistic    Interactive       Role        Role       Level      Label                              Ordering
+
+  1    TotalArea             30.525      INTERVAL       Input        Default    INTERVAL    TotalArea                              1   
+  2    Age                   22.484      INTERVAL       Input        Default    INTERVAL    Age                                    2   
+  3    Baths                 19.090      INTERVAL       Rejected     Default    INTERVAL    Baths                                  3   
+  4    ConstructionType      17.333      NOMINAL        Rejected     Default    NOMINAL     ConstructionType                       4   
+  5    FirePlace             13.625      INTERVAL       Rejected     Default    INTERVAL    FirePlace                              5   
+  6    CentralAir            13.337      BINARY         Rejected     Default    BINARY      CentralAir                             6   
+  7    WallType              12.662      NOMINAL        Rejected     Default    NOMINAL     WallType                               7   
+  8    G_GarageType           9.750      NOMINAL        Rejected     Default    NOMINAL     Grouped Levels for GarageType          8   
+  9    GarageSize             5.681      INTERVAL       Rejected     Default    INTERVAL    GarageSize                             9   
+ 10    G_BasementType         1.854      NOMINAL        Rejected     Default    NOMINAL     Grouped Levels for BasementType       10   
+ 11    SecondFloor            0.000      INTERVAL       Rejected     Default    INTERVAL    SecondFloor                           11   

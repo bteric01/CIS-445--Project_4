@@ -1,0 +1,82 @@
+ 
+                                                                                                                                                                                                                                                                
+ 
+ 
+Variable Summary
+
+            Measurement    Frequency
+Role           Level         Count
+
+INPUT        ORDINAL           2    
+REJECTED     BINARY            2    
+REJECTED     INTERVAL          6    
+REJECTED     NOMINAL           4    
+TARGET       INTERVAL          1    
+ 
+                                                                                                                                                                                                                                                                
+ 
+ 
+Predicted and decision variables
+
+Type          Variable      Label
+
+TARGET       SalePrice      SalePrice           
+PREDICTED    P_SalePrice    Predicted: SalePrice
+RESIDUAL     R_SalePrice    Residual: SalePrice 
+ 
+                                                                                                                                                                                                                                                                
+ 
+ 
+
+The DMREG Procedure
+
+                 Model Information
+
+Training Data Set             WORK.EM_DMREG.VIEW   
+DMDB Catalog                  WORK.REG2_DMDB       
+Target Variable               SalePrice (SalePrice)
+Target Measurement Level      Interval             
+Error                         Normal               
+Link Function                 Identity             
+Number of Model Parameters    7                    
+Number of Observations        129                  
+
+
+                             Analysis of Variance
+ 
+                                   Sum of
+Source                 DF         Squares     Mean Square    F Value    Pr > F
+
+Model                   6      5812820190       968803365       5.58    <.0001
+Error                 122     21167694507       173505693                     
+Corrected Total       128     26980514697                                     
+
+
+              Model Fit Statistics
+
+R-Square        0.2154     Adj R-Sq        0.1769
+AIC          2454.1549     BIC          2456.9516
+SBC          2474.1736     C(p)            7.0000
+
+
+               Type 3 Analysis of Effects
+ 
+                             Sum of
+Effect             DF       Squares    F Value    Pr > F
+
+GRP_Age             3    1986237755       3.82    0.0118
+GRP_TotalArea       3    4518914651       8.68    <.0001
+
+
+              Analysis of Maximum Likelihood Estimates
+ 
+                                     Standard
+Parameter          DF    Estimate       Error    t Value    Pr > |t|
+
+Intercept           1     76238.8      1161.0      65.67      <.0001
+GRP_Age       2     1      3740.0      2025.8       1.85      0.0673
+GRP_Age       3     1      3993.7      2072.6       1.93      0.0563
+GRP_Age       4     1     -2388.8      2060.3      -1.16      0.2486
+GRP_TotalArea 2     1     -6300.1      2099.4      -3.00      0.0033
+GRP_TotalArea 3     1     -2786.2      2044.8      -1.36      0.1755
+GRP_TotalArea 4     1     -1051.4      2014.9      -0.52      0.6027

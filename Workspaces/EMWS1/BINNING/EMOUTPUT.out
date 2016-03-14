@@ -1,0 +1,67 @@
+*------------------------------------------------------------*
+User:                bteric01
+Date:                November 17, 2015
+Time:                14:13:27
+*------------------------------------------------------------*
+* Training Output
+*------------------------------------------------------------*
+ 
+ 
+ 
+ 
+Variable Summary
+ 
+          Measurement    Frequency
+Role         Level         Count
+ 
+ASSESS     NOMINAL           1
+ID         INTERVAL          1
+INPUT      BINARY            1
+INPUT      INTERVAL          6
+INPUT      NOMINAL           4
+TARGET     INTERVAL          1
+ 
+ 
+ 
+ 
+ 
+Obs    Input Variable      Group Variable
+ 
+  1    Age                 GRP_Age
+  2    Baths               GRP_Baths
+  3    CentralAir          GRP_CentralAir
+  4    ConstructionType    GRP_ConstructionType
+  5    FirePlace           GRP_FirePlace
+  6    G_BasementType      GRP_G_BasementType
+  7    G_GarageType        GRP_G_GarageType
+  8    GarageSize          GRP_GarageSize
+  9    SecondFloor         GRP_SecondFloor
+ 10    TotalArea           GRP_TotalArea
+ 11    WallType            GRP_WallType
+
+
+*------------------------------------------------------------*
+* Score Output
+*------------------------------------------------------------*
+ 
+ 
+ 
+                              Gini       Level for     Calculated      New                                                       Gini
+Obs    Variable            Statistic    Interactive       Role        Role       Level      Label                              Ordering
+ 
+  1    TotalArea             30.525      INTERVAL       Input        Default    INTERVAL    TotalArea                              1
+  2    Age                   22.484      INTERVAL       Input        Default    INTERVAL    Age                                    2
+  3    Baths                 19.090      INTERVAL       Rejected     Default    INTERVAL    Baths                                  3
+  4    ConstructionType      17.333      NOMINAL        Rejected     Default    NOMINAL     ConstructionType                       4
+  5    FirePlace             13.625      INTERVAL       Rejected     Default    INTERVAL    FirePlace                              5
+  6    CentralAir            13.337      BINARY         Rejected     Default    BINARY      CentralAir                             6
+  7    WallType              12.662      NOMINAL        Rejected     Default    NOMINAL     WallType                               7
+  8    G_GarageType           9.750      NOMINAL        Rejected     Default    NOMINAL     Grouped Levels for GarageType          8
+  9    GarageSize             5.681      INTERVAL       Rejected     Default    INTERVAL    GarageSize                             9
+ 10    G_BasementType         1.854      NOMINAL        Rejected     Default    NOMINAL     Grouped Levels for BasementType       10
+ 11    SecondFloor            0.000      INTERVAL       Rejected     Default    INTERVAL    SecondFloor                           11
+
+
+*------------------------------------------------------------*
+* Report Output
+*------------------------------------------------------------*

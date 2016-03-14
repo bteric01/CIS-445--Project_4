@@ -1,0 +1,88 @@
+*------------------------------------------------------------*
+User:                bteric01
+Date:                November 16, 2015
+Time:                13:52:24
+*------------------------------------------------------------*
+* Training Output
+*------------------------------------------------------------*
+ 
+ 
+ 
+ 
+Variable Summary
+ 
+          Measurement    Frequency
+ Role        Level         Count
+ 
+INPUT      BINARY            1
+INPUT      INTERVAL          9
+INPUT      NOMINAL           6
+TARGET     INTERVAL          1
+ 
+ 
+ 
+Class Variable Summary Statistics
+(maximum 500 observations printed)
+ 
+Data Role=TRAIN
+ 
+                                      Number
+Data                                    of                            Mode                  Mode2
+Role     Variable Name       Role     Levels    Missing    Mode    Percentage    Mode2    Percentage
+ 
+TRAIN    BasementType        INPUT       3         0        2        91.10         1         5.21
+TRAIN    CentralAir          INPUT       2         0        1        70.55         0        29.45
+TRAIN    ConstructionType    INPUT       3         0        1        77.61         2        18.40
+TRAIN    GarageType          INPUT       4         0        2        82.52         0        11.66
+TRAIN    Neighborhood        INPUT       2         0        1        50.92         2        49.08
+TRAIN    WallType            INPUT       3         0        2        56.75         1        38.65
+ 
+ 
+ 
+Interval Variable Summary Statistics
+(maximum 500 observations printed)
+ 
+Data Role=TRAIN
+ 
+                                     Standard          Non
+Variable        Role         Mean    Deviation     Missing     Missing     Minimum      Median     Maximum    Skewness    Kurtosis
+ 
+Age            INPUT     47.40798    7.248711          326           0          22          47          67    0.273507    0.442276
+Basement       INPUT      110.135    233.7157          326           0          -1           0         971    2.004144    2.938159
+Baths          INPUT     1.509202    0.798985          326           0           1           1           4    1.189813    -0.13568
+FirePlace      INPUT     0.843558    0.396219          326           0           0           1           2    -1.28442    1.444008
+FirstFloor     INPUT     1027.433    154.5262          326           0         588        1023        1562    0.146034    0.442797
+GarageSize     INPUT     1.046012     0.52714          326           0           0           1           2    0.052884    0.600584
+SecondFloor    INPUT     29.00613     137.993          326           0           0           0         792    4.618082    19.71722
+TotalArea      INPUT      1368.12    290.3903          326           0         756        1346        2319    0.373337    -0.14423
+UpperArea      INPUT      311.681    235.6835          326           0           0         370         913    -0.08511    -0.99194
+SalePrice      TARGET    74222.06    14299.55          326           0       20907       73930      121984    0.031846    0.416082
+ 
+ 
+ 
+Correlation Statistics
+(maximum 500 observations printed)
+ 
+Data Role=TRAIN Type=PEARSON Target=SalePrice
+ 
+Input          Correlation
+ 
+TotalArea         0.29902
+FirePlace         0.21056
+GarageSize        0.19431
+UpperArea         0.18486
+SecondFloor       0.18419
+Baths             0.11904
+FirstFloor        0.11549
+Basement          0.02379
+Age              -0.06519
+
+
+*------------------------------------------------------------*
+* Score Output
+*------------------------------------------------------------*
+
+
+*------------------------------------------------------------*
+* Report Output
+*------------------------------------------------------------*

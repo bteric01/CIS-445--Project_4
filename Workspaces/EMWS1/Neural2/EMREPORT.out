@@ -1,0 +1,95 @@
+ 
+                                                                                                                                                                                                                                                                
+ 
+ 
+Fit Statistics
+
+Target=SalePrice Target Label=SalePrice
+
+   Fit
+Statistics    Statistics Label                            Train        Validation              Test
+
+ _DFT_        Total Degrees of Freedom                   129.00               .                 .  
+ _DFE_        Degrees of Freedom for Error               104.00               .                 .  
+ _DFM_        Model Degrees of Freedom                    25.00               .                 .  
+ _NW_         Number of Estimated Weights                 25.00               .                 .  
+ _AIC_        Akaike's Information Criterion            2495.37               .                 .  
+ _SBC_        Schwarz's Bayesian Criterion              2566.87               .                 .  
+ _ASE_        Average Squared Error                170860228.74      276587860.49      276649874.98
+ _MAX_        Maximum Absolute Error                   38015.43          61633.57          62463.71
+ _DIV_        Divisor for ASE                            129.00            109.00            109.00
+ _NOBS_       Sum of Frequencies                         129.00            109.00            109.00
+ _RASE_       Root Average Squared Error               13071.35          16630.93          16632.80
+ _SSE_        Sum of Squared Errors              22040969507.54    30148076793.67    30154836372.34
+ _SUMW_       Sum of Case Weights Times Freq             129.00            109.00            109.00
+ _FPE_        Final Prediction Error               253004569.48               .                 .  
+ _MSE_        Mean Squared Error                   211932399.11      276587860.49      276649874.98
+ _RFPE_       Root Final Prediction Error              15906.12               .                 .  
+ _RMSE_       Root Mean Squared Error                  14557.90          16630.93          16632.80
+ _AVERR_      Average Error Function               170860228.74      276587860.49      276649874.98
+ _ERR_        Error Function                     22040969507.54    30148076793.67    30154836372.34
+ _MISC_       Misclassification Rate                        .                 .                 .  
+ _WRONG_      Number of Wrong Classifications               .                 .                 .  
+ 
+                                                                                                                                                                                                                                                                
+ 
+ 
+Assessment Score Rankings
+
+Data Role=TRAIN Target Variable=SalePrice Target Label=SalePrice
+
+           Number of       Mean         Mean
+Depth    Observations     Target     Predicted
+
+   5          12         89818.33     84591.08
+  10          21         82119.14     78903.57
+  30          17         78945.24     77925.80
+  40          18         77952.39     77925.20
+  55          15         73261.60     74162.71
+  65          29         69996.83     72238.29
+  90          17         67500.88     68475.21
+
+
+Data Role=VALIDATE Target Variable=SalePrice Target Label=SalePrice
+
+           Number of       Mean         Mean
+Depth    Observations     Target     Predicted
+
+   5          10         91606.50     84591.08
+  10           5         76844.00     84591.08
+  15          11         74761.27     78903.57
+  25           9         73345.00     77925.80
+  35          17         70962.12     77925.20
+  50          14         72104.50     74162.71
+  65          30         70238.60     72238.29
+  90          13         65873.23     68475.21
+ 
+                                                                                                                                                                                                                                                                
+ 
+ 
+Assessment Score Distribution
+
+Data Role=TRAIN Target Variable=SalePrice Target Label=SalePrice
+
+                            Mean         Mean        Number of       Model
+ Range for Predicted       Target     Predicted    Observations      Score
+
+83785.286 -  84591.079    89818.33     84591.08         12         84188.18
+78144.732 -  78950.525    82119.14     78903.57         21         78547.63
+77338.939 -  78144.732    78434.63     77925.49         35         77741.84
+74115.765 -  74921.559    73261.60     74162.71         15         74518.66
+71698.385 -  72504.178    69996.83     72238.29         29         72101.28
+68475.212 -  69281.005    67500.88     68475.21         17         68878.11
+
+
+Data Role=VALIDATE Target Variable=SalePrice Target Label=SalePrice
+
+                            Mean         Mean        Number of       Model
+ Range for Predicted       Target     Predicted    Observations      Score
+
+83785.286 -  84591.079    86685.67     84591.08         15         84188.18
+78144.732 -  78950.525    74761.27     78903.57         11         78547.63
+77338.939 -  78144.732    71786.96     77925.41         26         77741.84
+74115.765 -  74921.559    72104.50     74162.71         14         74518.66
+71698.385 -  72504.178    70238.60     72238.29         30         72101.28
+68475.212 -  69281.005    65873.23     68475.21         13         68878.11

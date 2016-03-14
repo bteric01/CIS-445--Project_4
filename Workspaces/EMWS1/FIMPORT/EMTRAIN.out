@@ -1,0 +1,67 @@
+ 
+                                                                                                                                                                                                                                                                
+ 
+ 
+Variable Summary
+
+          Measurement    Frequency
+ Role        Level         Count
+
+INPUT      BINARY            1    
+INPUT      INTERVAL          9    
+INPUT      NOMINAL           6    
+TARGET     INTERVAL          1    
+ 
+                                                                                                                                                                                                                                                                
+ 
+ 
+
+The CONTENTS Procedure
+
+Data Set Name        EMWS1.FIMPORT_DATA            Observations          363
+Member Type          DATA                          Variables             17 
+Engine               V9                            Indexes               0  
+Created              11/16/2015 13:49:35           Observation Length    136
+Last Modified        11/16/2015 13:49:35           Deleted Observations  0  
+Protection                                         Compressed            NO 
+Data Set Type                                      Sorted                NO 
+Label                                                                       
+Data Representation  WINDOWS_64                                             
+Encoding             wlatin1  Western (Windows)                             
+
+
+                                             Engine/Host Dependent Information
+
+Data Set Page Size          65536                                                                                          
+Number of Data Set Pages    1                                                                                              
+First Data Page             1                                                                                              
+Max Obs per Page            481                                                                                            
+Obs in First Data Page      363                                                                                            
+Number of Data Set Repairs  0                                                                                              
+ExtendObsCounter            YES                                                                                            
+Filename                    C:\Users\bteric01\Documents\Tutorials_Projects\Project_4\Workspaces\EMWS1\fimport_data.sas7bdat
+Release Created             9.0401M1                                                                                       
+Host Created                X64_7PRO                                                                                       
+
+
+            Alphabetic List of Variables and Attributes
+ 
+ #    Variable            Type    Len    Format    Label
+
+ 2    Age                 Num       8    BEST.     Age             
+ 6    Basement            Num       8    BEST.     Basement        
+14    BasementType        Num       8    BEST.     BasementType    
+11    Baths               Num       8    BEST.     Baths           
+12    CentralAir          Num       8    BEST.     CentralAir      
+ 4    ConstructionType    Num       8    BEST.     ConstructionType
+13    FirePlace           Num       8    BEST.     FirePlace       
+ 7    FirstFloor          Num       8    BEST.     FirstFloor      
+16    GarageSize          Num       8    BEST.     GarageSize      
+15    GarageType          Num       8    BEST.     GarageType      
+ 3    LotSize             Num       8    BEST.     LotSize         
+ 1    Neighborhood        Num       8    BEST.     Neighborhood    
+17    SalePrice           Num       8    BEST.     SalePrice       
+ 8    SecondFloor         Num       8    BEST.     SecondFloor     
+10    TotalArea           Num       8    BEST.     TotalArea       
+ 9    UpperArea           Num       8    BEST.     UpperArea       
+ 5    WallType            Num       8    BEST.     WallType        

@@ -1,0 +1,497 @@
+*------------------------------------------------------------*
+User:                bteric01
+Date:                November 16, 2015
+Time:                14:09:58
+*------------------------------------------------------------*
+* Training Output
+*------------------------------------------------------------*
+ 
+ 
+ 
+ 
+Variable Summary
+ 
+          Measurement    Frequency
+ Role        Level         Count
+ 
+INPUT      BINARY            1
+INPUT      INTERVAL          9
+INPUT      NOMINAL           6
+TARGET     INTERVAL          1
+ 
+ 
+ 
+ 
+Predicted and decision variables
+ 
+Type          Variable      Label
+ 
+TARGET       SalePrice      SalePrice
+PREDICTED    P_SalePrice    Predicted: SalePrice
+RESIDUAL     R_SalePrice    Residual: SalePrice
+ 
+ 
+ 
+ 
+ 
+The NEURAL Procedure
+ 
+Preliminary       Starting         Objective         Number
+ Training          Random           Function           of        Terminating
+    Run             Seed             Value         Iterations     Criteria
+ 
+        1               12345    200003883.6345           10
+        2           734635899    257856116.2611           10
+        3             6541955    187504048.2851           10
+        4           335245709     241796866.258           10
+        5          1489754846    254799617.2881           10
+ 
+ 
+ 
+ 
+ 
+The NEURAL Procedure
+ 
+                    Optimization Start
+                   Parameter Estimates
+                                                 Gradient
+                                                Objective
+  N Parameter                    Estimate        Function
+ 
+  1 Age_H11                      1.081125         1085323
+  2 Basement_H11                 1.037928           70083
+  3 Baths_H11                   -2.690455         -438930
+  4 FirePlace_H11               -2.589891          658849
+  5 FirstFloor_H11               0.548303        -1068854
+  6 GarageSize_H11              -0.601467         2033147
+  7 SecondFloor_H11             -3.010683          799199
+  8 TotalArea_H11               -1.753464         -883654
+  9 UpperArea_H11                0.106659        -1214137
+ 10 Age_H12                     10.605654          -11306
+ 11 Basement_H12                -2.313419          -34618
+ 12 Baths_H12                   -5.997888         -154360
+ 13 FirePlace_H12               -7.383344           35213
+ 14 FirstFloor_H12               1.059291          124269
+ 15 GarageSize_H12              -2.720231          115653
+ 16 SecondFloor_H12             -3.754869           28361
+ 17 TotalArea_H12               -0.995890           64276
+ 18 UpperArea_H12                1.760276          -39843
+ 19 Age_H13                     -5.188592         -322787
+ 20 Basement_H13                -0.374435          236975
+ 21 Baths_H13                   -1.370991          600957
+ 22 FirePlace_H13               -4.519730         -361032
+ 23 FirstFloor_H13               2.347853         1854300
+ 24 GarageSize_H13               4.915539        -1470238
+ 25 SecondFloor_H13             -5.961602        -2783491
+ 26 TotalArea_H13               -0.364869          755766
+ 27 UpperArea_H13                4.361284         2483746
+ 28 CentralAir0_H11              1.819266          805050
+ 29 CentralAir0_H12             -4.861263          106445
+ 30 CentralAir0_H13             -0.200654         -239721
+ 31 BasementType0_H11           -0.425531         1170116
+ 32 BasementType1_H11           -2.815249          121261
+ 33 ConstructionType1_H11       -2.288004        -1966166
+ 34 ConstructionType2_H11       -3.680757         -247812
+ 35 GarageType0_H11              0.666845        -1432435
+ 36 GarageType1_H11              2.642293          -26189
+ 37 GarageType2_H11             -4.225848         -622839
+ 38 GarageType3_H11             -5.847670           19383
+ 39 GarageType4_H11              4.953819     -677.599907
+ 40 LotSize1_H11                 2.814531        -2065760
+ 41 Neighborhood1_H11            0.846060          930464
+ 42 WallType1_H11                1.126683           24094
+ 43 WallType2_H11               -1.634113          479971
+ 44 BasementType0_H12            0.233901           52190
+ 45 BasementType1_H12            2.373868           52201
+ 46 ConstructionType1_H12        3.088146          -95408
+ 47 ConstructionType2_H12        0.201213           34206
+ 48 GarageType0_H12              0.046172    -1551.508618
+ 49 GarageType1_H12             -1.555158    -8842.344589
+ 50 GarageType2_H12              1.595825          -41685
+ 51 GarageType3_H12             -0.593950     -131.899274
+ 52 GarageType4_H12              0.531663       -1.561254
+ 53 LotSize1_H12                -0.196686          -52212
+ 54 Neighborhood1_H12            0.744528           16443
+ 55 WallType1_H12               -0.338561          -62557
+ 56 WallType2_H12                0.063451           10325
+ 57 BasementType0_H13           -8.079333        -1263670
+ 58 BasementType1_H13            7.361560        -1308444
+ 59 ConstructionType1_H13       -9.593735         2049549
+ 60 ConstructionType2_H13      -12.367726         1504091
+ 61 GarageType0_H13              2.788251          862425
+ 62 GarageType1_H13              3.792707     -171.708774
+ 63 GarageType2_H13              1.228338          428511
+ 64 GarageType3_H13              0.299717           35301
+ 65 GarageType4_H13             -0.684416        2.000404
+ 66 LotSize1_H13                 2.774688         1326066
+ 67 Neighborhood1_H13           -1.031647          141733
+ 68 WallType1_H13               -5.524698          740864
+ 69 WallType2_H13               -3.976976          608110
+ 70 BIAS_H11                     1.602221        -2065752
+ 71 BIAS_H12                    -2.230400          -52212
+ 72 BIAS_H13                     8.386710         1326066
+ 73 H11_SalePrice            -6005.494320     4046.337476
+ 74 H12_SalePrice            -1039.278979     6460.798154
+ 75 H13_SalePrice             2531.162121    -6282.519519
+ 76 BIAS_SalePrice                  77287      302.136257
+ 
+Value of Objective Function = 187504048.29
+ 
+ 
+ 
+ 
+ 
+ 
+The NEURAL Procedure
+ 
+Levenberg-Marquardt Optimization
+ 
+ 
+Minimum Iterations                                0
+Maximum Iterations                               50
+Maximum Function Calls                   2147483647
+Maximum CPU Time                              14400
+ABSGCONV Gradient Criterion                 0.00001
+GCONV Gradient Criterion                       1E-8
+GCONV2 Gradient Criterion                         0
+ABSFCONV Function Criterion                       0
+FCONV Function Criterion                     0.0001
+FCONV2 Function Criterion                         0
+FSIZE Parameter                                   0
+ABSXCONV Parameter Change Criterion               0
+XCONV Parameter Change Criterion                  0
+XSIZE Parameter                                   0
+ABSCONV Function Criterion             279943.89831
+Trust Region Initial Radius Factor                1
+Singularity Tolerance (SINGULAR)               1E-8
+ 
+Levenberg-Marquardt Optimization
+ 
+Scaling Update of More (1978)
+ 
+Parameter Estimates              76
+ 
+                                             Optimization Start
+ 
+Active Constraints                                  0  Objective Function                       187504048.29
+Max Abs Gradient Element                 2783491.1556  Radius                                    15178733149
+ 
+ 
+                                                                                                         Ratio
+                                                                                                       Between
+                                                                                                        Actual
+                                                                 Objective     Max Abs                     and
+                     Function         Active        Objective     Function    Gradient               Predicted
+Iter     Restarts       Calls    Constraints         Function       Change     Element     Lambda       Change
+ 
+   1*           0          13              0        186933020       571028     2721187      1.694       0.0230
+   2*           0          18              0        183210371      3722650     2208714     119869        0.302
+   3*           0          20              0        178239867      4970504     3038292     457547        0.607
+   4*           0          22              0        173526853      4713013     2649452    3010052        0.438
+   5*           0          23              0        171607888      1918965     3998020     986219        0.316
+   6*           0          25              0        169081915      2525973     2022564    7920315        0.489
+   7*           0          26              0        168941010       140905     3222572    2104517       0.0695
+   8*           0          27              0        168164453       776557     2541438    1.138E7        0.367
+   9*           0          29              0        167910632       253821     1281486    2.867E7        0.415
+  10*           0          30              0        167849530      61102.1     1368182        1E7        0.232
+  11*           0          31              0        167830690      18840.1     1675525    1.374E7       0.0638
+  12*           0          32              0        167711749       118940      427796    4.417E7        0.570
+  13*           0          33              0        167665541      46208.3      274770    1.296E7        0.893
+  14*           0          34              0        167586109      79432.4      444576    6019971        0.869
+  15*           0          35              0        167469480       116628      894401    2716116        0.673
+  16*           0          36              0        167336319       133162     1818751     751670        0.257
+  17*           0          38              0        167251358      84960.5     2071239    1.504E7        0.128
+  18*           0          40              0        167074267       177091      628275    3.601E7        0.504
+  19*           0          41              0        167044215      30052.7      730753    7782155        0.400
+  20*           0          42              0        167029571      14643.2      940421    8499005        0.149
+  21*           0          43              0        167027922       1649.3     1165882    1.214E7       0.0115
+  22*           0          44              0        166965559      62362.7      238889    4.855E7        0.590
+  23*           0          45              0        166943305      22254.7      193544    1.261E7        0.957
+  24*           0          46              0        166901348      41956.9      201993    6085317        0.984
+  25*           0          47              0        166819255      82092.9      217622    2989789        0.975
+  26*           0          48              0        166585182       234073      428097     959692        0.938
+  27*           0          51              0        166566735      18447.0     1281021    2443591        0.104
+  28*           0          53              0        166491948      74787.4     1085715    1.555E7        0.296
+  29*           0          55              0        166442530      49417.4      451594    3.112E7        0.477
+  30*           0          56              0        166420713      21817.6      474092    1.313E7        0.540
+  31*           0          57              0        166401521      19192.4      465507    1.323E7        0.467
+  32*           0          58              0        166382678      18842.8      528455    1.365E7        0.428
+  33*           0          59              0        166365079      17598.4      512185     1.39E7        0.390
+  34*           0          60              0        166347094      17984.9      556466    1.407E7        0.383
+  35*           0          61              0        166330162      16931.9      528214    1.417E7        0.361
+  36*           0          62              0        166312710      17452.4      566567    1.414E7        0.364
+  37*           0          63              0        166296208      16502.5      532578    1.421E7        0.349
+  38*           0          64              0        166279182      17026.0      568868    1.409E7        0.354
+  39*           0          65              0        166263002      16180.0      532673    1.415E7        0.341
+  40*           0          66              0        166246332      16669.6      567597    1.401E7        0.347
+  41*           0          67              0        166230402      15930.1      530496    1.407E7        0.337
+  42*           0          68              0        166214041      16361.3      564411    1.391E7        0.342
+  43*           0          69              0        166198280      15760.6      524284    1.409E7        0.336
+  44*           0          70              0        166182213      16067.6      559451    1.371E7        0.340
+  45*           0          71              0        166166645      15567.0      522937    1.389E7        0.332
+  46*           0          72              0        166150797      15848.1      555175    1.369E7        0.337
+  47*           0          73              0        166135373      15424.4      519606    1.376E7        0.331
+  48*           0          74              0        166119735      15638.1      551168    1.358E7        0.334
+  49*           0          75              0        166104400      15335.2      514407    1.371E7        0.331
+  50*           0          76              0        166088943      15456.9      544882    1.349E7        0.333
+ 
+                                            Optimization Results
+ 
+Iterations                                         50  Function Calls                                     78
+Jacobian Calls                                     52  Active Constraints                                  0
+Objective Function                       166088942.67  Max Abs Gradient Element                 544882.26435
+Lambda                                   13485088.187  Actual Over Pred Change                  0.3332908295
+Radius                                    0.048998978
+ 
+Convergence criterion (FCONV=0.0001) satisfied.
+ 
+NOTE: At least one element of the gradient is greater than 1e-3.
+ 
+ 
+ 
+ 
+ 
+ 
+The NEURAL Procedure
+ 
+                   Optimization Results
+                   Parameter Estimates
+                                                 Gradient
+                                                Objective
+  N Parameter                    Estimate        Function
+ 
+  1 Age_H11                      1.053491         -168808
+  2 Basement_H11                 1.492096     8601.247472
+  3 Baths_H11                   -4.804445           23257
+  4 FirePlace_H11               -5.889467          278966
+  5 FirstFloor_H11               0.364799         -132720
+  6 GarageSize_H11              -1.374190          -66893
+  7 SecondFloor_H11             -2.590536           96069
+  8 TotalArea_H11               -2.343908         -249956
+  9 UpperArea_H11               -1.045671         -343670
+ 10 Age_H12                     11.185680          -18581
+ 11 Basement_H12                -2.917517           10182
+ 12 Baths_H12                   -4.713054          -34496
+ 13 FirePlace_H12               -9.565585           29335
+ 14 FirstFloor_H12              -0.428834           20608
+ 15 GarageSize_H12              -4.327161     1766.891674
+ 16 SecondFloor_H12             -4.142269     2294.531504
+ 17 TotalArea_H12               -0.759336     5522.013598
+ 18 UpperArea_H12                3.077015          -11270
+ 19 Age_H13                     -3.712568           76177
+ 20 Basement_H13                -0.477633          -17784
+ 21 Baths_H13                   -2.722145           40932
+ 22 FirePlace_H13               -6.614367          111662
+ 23 FirstFloor_H13               1.287423           35479
+ 24 GarageSize_H13               5.446856         -107998
+ 25 SecondFloor_H13             -4.949765          -52156
+ 26 TotalArea_H13                0.263601          -34283
+ 27 UpperArea_H13                5.076672          -21841
+ 28 CentralAir0_H11              3.113132          311682
+ 29 CentralAir0_H12             -5.577521     7626.509834
+ 30 CentralAir0_H13             -1.031856           42148
+ 31 BasementType0_H11           -1.982457          494879
+ 32 BasementType1_H11           -4.487429          544882
+ 33 ConstructionType1_H11       -1.976223         -246389
+ 34 ConstructionType2_H11       -2.289221         -350561
+ 35 GarageType0_H11              4.526135          -90223
+ 36 GarageType1_H11              4.429417         -128362
+ 37 GarageType2_H11             -5.635358         -375866
+ 38 GarageType3_H11             -8.528964          156382
+ 39 GarageType4_H11             60.762983               0
+ 40 LotSize1_H11                 3.097447         -438071
+ 41 Neighborhood1_H11            0.825699          -14955
+ 42 WallType1_H11                1.346238          -95070
+ 43 WallType2_H11               -3.695812         -102534
+ 44 BasementType0_H12            0.032239     7048.994116
+ 45 BasementType1_H12            2.172542     7051.380709
+ 46 ConstructionType1_H12        3.719730     1165.452486
+ 47 ConstructionType2_H12       -0.504951    -8186.966844
+ 48 GarageType0_H12             -5.629477    -9084.426519
+ 49 GarageType1_H12              0.202530           17889
+ 50 GarageType2_H12              1.706011          -15852
+ 51 GarageType3_H12              0.436833        0.803673
+ 52 GarageType4_H12                367508               0
+ 53 LotSize1_H12                 0.004218    -7046.606537
+ 54 Neighborhood1_H12            0.480495          -25628
+ 55 WallType1_H12                0.644236          -32198
+ 56 WallType2_H12               -0.658887           25151
+ 57 BasementType0_H13           -8.284116          105864
+ 58 BasementType1_H13            7.661931           74411
+ 59 ConstructionType1_H13       -8.969081          -48617
+ 60 ConstructionType2_H13      -14.475155           20853
+ 61 GarageType0_H13             -0.157004           35263
+ 62 GarageType1_H13            703.269909               0
+ 63 GarageType2_H13              1.525910          -90429
+ 64 GarageType3_H13             -0.127033           34393
+ 65 GarageType4_H13               -286831               0
+ 66 LotSize1_H13                 2.472150          -20774
+ 67 Neighborhood1_H13           -4.123543           94029
+ 68 WallType1_H13               -6.986855           60788
+ 69 WallType2_H13               -3.945787           16889
+ 70 BIAS_H11                     1.884852         -438069
+ 71 BIAS_H12                    -2.029496    -7046.606537
+ 72 BIAS_H13                     8.084171          -20774
+ 73 H11_SalePrice            -6665.003152     2564.487907
+ 74 H12_SalePrice            -2078.225535     3662.929930
+ 75 H13_SalePrice             3833.131434    -5045.786858
+ 76 BIAS_SalePrice                  77329     -160.210113
+ 
+Value of Objective Function = 166088942.67
+ 
+
+
+*------------------------------------------------------------*
+* Score Output
+*------------------------------------------------------------*
+
+
+*------------------------------------------------------------*
+* Report Output
+*------------------------------------------------------------*
+ 
+ 
+ 
+ 
+Fit Statistics
+ 
+Target=SalePrice Target Label=SalePrice
+ 
+   Fit
+Statistics    Statistics Label                            Train        Validation              Test
+ 
+ _DFT_        Total Degrees of Freedom                   145.00               .                 .
+ _DFE_        Degrees of Freedom for Error                69.00               .                 .
+ _DFM_        Model Degrees of Freedom                    76.00               .                 .
+ _NW_         Number of Estimated Weights                 76.00               .                 .
+ _AIC_        Akaike's Information Criterion            2914.15               .                 .
+ _SBC_        Schwarz's Bayesian Criterion              3140.38               .                 .
+ _ASE_        Average Squared Error                187504048.29      323013669.43      307821044.21
+ _MAX_        Maximum Absolute Error                   76805.80          69383.20          75164.08
+ _DIV_        Divisor for ASE                            145.00            109.00            109.00
+ _NOBS_       Sum of Frequencies                         145.00            109.00            109.00
+ _RASE_       Root Average Squared Error               13693.21          17972.58          17544.83
+ _SSE_        Sum of Squared Errors              27188087001.34    35208489967.52    33552493818.35
+ _SUMW_       Sum of Case Weights Times Freq             145.00            109.00            109.00
+ _FPE_        Final Prediction Error               600556444.51               .                 .
+ _MSE_        Mean Squared Error                   394030246.40      323013669.43      307821044.21
+ _RFPE_       Root Final Prediction Error              24506.25               .                 .
+ _RMSE_       Root Mean Squared Error                  19850.20          17972.58          17544.83
+ _AVERR_      Average Error Function               187504048.29      323013669.43      307821044.21
+ _ERR_        Error Function                     27188087001.34    35208489967.52    33552493818.35
+ _MISC_       Misclassification Rate                        .                 .                 .
+ _WRONG_      Number of Wrong Classifications               .                 .                 .
+ 
+ 
+ 
+ 
+Assessment Score Rankings
+ 
+Data Role=TRAIN Target Variable=SalePrice Target Label=SalePrice
+ 
+           Number of       Mean         Mean
+Depth    Observations     Target     Predicted
+ 
+   5           8         99004.25     86863.00
+  10           7         92722.29     86847.80
+  15           7         93741.43     86740.17
+  20           7         92926.43     85597.07
+  25           8         86382.75     84189.90
+  30           7         76763.29     82273.40
+  35           7         68861.14     81634.50
+  40           7         82957.71     78921.24
+  45           8         69213.13     76617.47
+  50           7         80618.71     75001.55
+  55           7         86899.00     74852.63
+  60           7         75408.57     74128.57
+  65           8         70088.25     72913.33
+  70           7         69065.86     72771.14
+  75           7         68754.71     72417.03
+  80           7         65994.43     70809.35
+  85           8         69445.38     69851.82
+  90           7         62966.86     68580.30
+  95           7         63601.14     67743.75
+ 100           7         57392.86     67711.74
+ 
+ 
+Data Role=VALIDATE Target Variable=SalePrice Target Label=SalePrice
+ 
+           Number of       Mean         Mean
+Depth    Observations     Target     Predicted
+ 
+   5           6         62986.67     86863.00
+  10           5         71144.20     86810.81
+  15           6         86422.67     86243.82
+  20           5         88021.40     84766.13
+  25           6         78299.83     83807.45
+  30           5         67895.80     82107.67
+  35           6         79076.50     81383.48
+  40           5         81977.60     79001.65
+  45           6         69422.83     76813.12
+  50           5         80182.60     74933.73
+  55           5         64406.80     74775.69
+  60           6         69546.50     73422.27
+  65           5         81473.00     72811.52
+  70           6         64494.83     72773.50
+  75           5         61700.40     72717.60
+  80           6         61920.50     71752.06
+  85           5         76282.60     69980.49
+  90           6         70297.17     68967.92
+  95           5         75846.80     67989.19
+ 100           5         72526.40     67719.13
+ 
+ 
+ 
+ 
+Assessment Score Distribution
+ 
+Data Role=TRAIN Target Variable=SalePrice Target Label=SalePrice
+ 
+                            Mean         Mean        Number of       Model
+ Range for Predicted       Target     Predicted    Observations      Score
+ 
+85905.490 -  86863.083    95825.24     86773.23         25         86384.29
+84947.896 -  85905.490    84416.00     85452.47          1         85426.69
+83990.303 -  84947.896    91889.50     84604.34          8         84469.10
+83032.709 -  83990.303    74554.67     83700.24          3         83511.51
+82075.116 -  83032.709    78171.33     82590.45          3         82553.91
+81117.522 -  82075.116    70404.90     81859.47         10         81596.32
+80159.929 -  81117.522    80808.00     80989.22          1         80638.73
+79202.335 -  80159.929    81511.67     79410.83          3         79681.13
+78244.742 -  79202.335    83603.00     78689.97          3         78723.54
+77287.148 -  78244.742    75935.00     77705.22          3         77765.94
+76329.554 -  77287.148    64813.25     76865.98          4         76808.35
+74414.367 -  75371.961    82051.50     74925.48         18         74893.16
+73456.774 -  74414.367    75112.80     73945.39          5         73935.57
+72499.180 -  73456.774    70459.58     72806.89         19         72977.98
+71541.587 -  72499.180    62346.50     71971.64          4         72020.38
+70583.993 -  71541.587    63794.75     70889.95          4         71062.79
+69626.400 -  70583.993    69967.70     69932.67         10         70105.20
+68668.806 -  69626.400    64027.00     69107.22          3         69147.60
+67711.213 -  68668.806    60869.17     67829.38         18         68190.01
+ 
+ 
+Data Role=VALIDATE Target Variable=SalePrice Target Label=SalePrice
+ 
+                            Mean         Mean        Number of       Model
+ Range for Predicted       Target     Predicted    Observations      Score
+ 
+85905.490 -  86863.083    72937.56     86708.92         16         86384.29
+84947.896 -  85905.490    88216.50     85173.47          2         85426.69
+83990.303 -  84947.896    84147.43     84454.14          7         84469.10
+83032.709 -  83990.303    80211.50     83802.99          2         83511.51
+82075.116 -  83032.709    77861.67     82664.09          3         82553.91
+81117.522 -  82075.116    67327.67     81793.35          6         81596.32
+80159.929 -  81117.522    86331.50     80805.14          4         80638.73
+79202.335 -  80159.929    78751.00     79687.05          2         79681.13
+77287.148 -  78244.742    72280.75     77610.64          4         77765.94
+76329.555 -  77287.148    68622.50     76767.20          2         76808.35
+75371.961 -  76329.555    71405.00     76148.94          2         75850.76
+74414.368 -  75371.961    72294.70     74854.71         10         74893.16
+73456.774 -  74414.368    69799.00     73783.61          3         73935.57
+72499.180 -  73456.774    68101.55     72802.23         20         72977.98
+71541.587 -  72499.180    65110.00     72187.30          3         72020.38
+70583.993 -  71541.587    61924.00     70974.60          1         71062.79
+69626.400 -  70583.993    73861.57     70011.61          7         70105.20
+68668.806 -  69626.400    54901.50     69158.38          2         69147.60
+67711.213 -  68668.806    75475.69     68019.55         13         68190.01

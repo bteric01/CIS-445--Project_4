@@ -1,0 +1,278 @@
+ 
+                                                                                                                                                                                                                                                                
+ 
+ 
+Variable Summary
+
+            Measurement    Frequency
+Role           Level         Count
+
+INPUT        ORDINAL           2    
+REJECTED     BINARY            2    
+REJECTED     INTERVAL          6    
+REJECTED     NOMINAL           4    
+TARGET       INTERVAL          1    
+ 
+                                                                                                                                                                                                                                                                
+ 
+ 
+Predicted and decision variables
+
+Type          Variable      Label
+
+TARGET       SalePrice      SalePrice           
+PREDICTED    P_SalePrice    Predicted: SalePrice
+RESIDUAL     R_SalePrice    Residual: SalePrice 
+ 
+                                                                                                                                                                                                                                                                
+ 
+ 
+
+The NEURAL Procedure
+
+Preliminary       Starting         Objective         Number
+ Training          Random           Function           of        Terminating
+    Run             Seed             Value         Iterations     Criteria
+
+        1               12345    190551167.7862           10                
+        2          1696138964    184228810.2806           10                
+        3           117568856    185575221.6692           10                
+        4          2114796956    170886232.8042           10                
+        5          1589137630    182744219.4469           10                
+ 
+                                                                                                                                                                                                                                                                
+ 
+ 
+
+The NEURAL Procedure
+
+                                          Optimization Start
+                                          Parameter Estimates
+                                              Gradient           Lower           Upper    Active
+                                             Objective           Bound           Bound    Bound
+  N Parameter                 Estimate        Function      Constraint      Constraint    Constraint
+
+  1 GRP_Age2_H11                 1E-10    -2.98388E-10           1E-10               .     Lower BC   
+  2 GRP_Age3_H11                 1E-10    3.323339E-10           1E-10               .     Lower BC   
+  3 GRP_Age4_H11             26.256172    5.785381E-10           1E-10               .                
+  4 GRP_TotalArea2_H11           1E-10    -5.78538E-10           1E-10               .     Lower BC   
+  5 GRP_TotalArea3_H11        7.472402    -5.78538E-10           1E-10               .                
+  6 GRP_TotalArea4_H11       74.996084    -5.78538E-10           1E-10               .                
+  7 GRP_Age2_H12              3.174071       12.958789           1E-10               .                
+  8 GRP_Age3_H12              7.722891       13.103292           1E-10               .                
+  9 GRP_Age4_H12                 1E-10        4.818686           1E-10               .     Lower BC   
+ 10 GRP_TotalArea2_H12       19.121492      -13.103292           1E-10               .                
+ 11 GRP_TotalArea3_H12           1E-10     1285.319010           1E-10               .     Lower BC   
+ 12 GRP_TotalArea4_H12       16.055476        0.047790           1E-10               .                
+ 13 GRP_Age2_H13              0.001787       -0.019806           1E-10               .                
+ 14 GRP_Age3_H13             75.803209       -0.019806           1E-10               .                
+ 15 GRP_Age4_H13              0.000250       -0.019343           1E-10               .                
+ 16 GRP_TotalArea2_H13        0.000148       -0.011707           1E-10               .                
+ 17 GRP_TotalArea3_H13           1E-10        0.009555           1E-10               .     Lower BC   
+ 18 GRP_TotalArea4_H13       26.236142        0.019806           1E-10               .                
+ 19 BIAS_H11                -16.517695    -9.14749E-10               .               .                
+ 20 BIAS_H12                  9.282109       -0.075562               .               .                
+ 21 BIAS_H13                -21.376530       -0.031316               .               .                
+ 22 H11_SalePrice          3327.309997    -3226.258760               .               .                
+ 23 H12_SalePrice          1878.643520    -1761.528440               .               .                
+ 24 H13_SalePrice         -2841.675954     1259.836285               .               .                
+ 25 BIAS_SalePrice               76532     -821.864741               .               .                
+
+Value of Objective Function = 170886232.8
+
+
+
+         First Order Lagrange Multipliers
+                         
+ 
+                                          Lagrange
+        Active Constraint               Multiplier
+
+ Lower BC       GRP_Age2_H11                     0
+ Lower BC       GRP_Age2_H11                     0
+ Lower BC       GRP_Age2_H11                     0
+ Lower BC       GRP_Age2_H11                     0
+ Lower BC       GRP_Age2_H11                     0
+ Lower BC       GRP_Age2_H11                     0
+
+
+  Projected Gradient
+ 
+     Free    Projected
+Dimension     Gradient
+
+        1 -2.98388E-10
+        2 -2.98388E-10
+        3 -2.98388E-10
+        4 -2.98388E-10
+        5 -2.98388E-10
+        6 -2.98388E-10
+        7 -2.98388E-10
+        8 -2.98388E-10
+        9 -2.98388E-10
+       10 -2.98388E-10
+       11 -2.98388E-10
+       12 -2.98388E-10
+       13 -2.98388E-10
+       14 -2.98388E-10
+       15 -2.98388E-10
+       16 -2.98388E-10
+       17 -2.98388E-10
+       18 -2.98388E-10
+       19 -2.98388E-10
+ 
+                                                                                                                                                                                                                                                                
+ 
+ 
+
+The NEURAL Procedure
+
+Levenberg-Marquardt Optimization
+
+
+Minimum Iterations                                    0
+Maximum Iterations                                   50
+Maximum Function Calls                       2147483647
+Maximum CPU Time                                  14400
+ABSGCONV Gradient Criterion                     0.00001
+GCONV Gradient Criterion                           1E-8
+GCONV2 Gradient Criterion                             0
+ABSFCONV Function Criterion                           0
+FCONV Function Criterion                         0.0001
+FCONV2 Function Criterion                             0
+FSIZE Parameter                                       0
+ABSXCONV Parameter Change Criterion                   0
+XCONV Parameter Change Criterion                      0
+XSIZE Parameter                                       0
+ABSCONV Function Criterion                 210785.27107
+Trust Region Initial Radius Factor                    1
+Singularity Tolerance (SINGULAR)                   1E-8
+Constraint Precision (LCEPS)                       1E-8
+Linearly Dependent Constraints (LCSING)            1E-8
+Releasing Active Constraints (LCDEACT)                .
+
+Levenberg-Marquardt Optimization
+
+Scaling Update of More (1978)
+
+Parameter Estimates              25
+Lower Bounds                     18
+Upper Bounds                      0
+
+                                             Optimization Start
+
+Active Constraints                                  6  Objective Function                        170886232.8
+Max Abs Gradient Element                 3226.2587601  Radius                                   5616.7813578
+
+
+                                                                                                         Ratio
+                                                                                                       Between
+                                                                                                        Actual
+                                                                 Objective     Max Abs                     and
+                     Function         Active        Objective     Function    Gradient               Predicted
+Iter     Restarts       Calls    Constraints         Function       Change     Element     Lambda       Change
+
+   1*           0           8              7        170886224       8.9406      3226.3     713819        0.322
+   2*           0           9              7        170886199      24.7851      3226.2     636465        1.000
+   3*           0          10              7        170886150      49.5701      3226.2     318230        1.000
+   4*           0          11              7        170886050      99.1415      3226.2     159110        1.000
+   5*           0          12              7        170885852        198.3      3226.1      79540        1.000
+   6*           0          13              7        170885256        596.2      3225.9      26456        1.000
+   7*           0          14              7        170884056       1200.0      3225.5      13141        1.000
+   8*           0          15              7        170881607       2449.3      3224.7     6434.9        1.000
+   9*           0          16              7        170874475       7131.6      3222.2     2207.1        1.000
+  10*           0          17              7        170860229      14246.3      3217.3     1101.8        1.000
+
+                                            Optimization Results
+
+Iterations                                         10  Function Calls                                     19
+Jacobian Calls                                     12  Active Constraints                                  7
+Objective Function                       170860228.74  Max Abs Gradient Element                 3217.3196797
+Lambda                                   1101.7846371  Actual Over Pred Change                  0.9999993933
+Radius                                   7.1888634151                                                       
+
+Convergence criterion (FCONV=0.0001) satisfied.                                                   
+
+NOTE: At least one element of the gradient is greater than 1e-3.
+
+ 
+                                                                                                                                                                                                                                                                
+ 
+ 
+
+The NEURAL Procedure
+
+                         Optimization Results
+                          Parameter Estimates
+                                              Gradient    Active
+                                             Objective    Bound
+  N Parameter                 Estimate        Function    Constraint
+
+  1 GRP_Age2_H11                 1E-10               0     Lower BC   
+  2 GRP_Age3_H11                 1E-10               0     Lower BC   
+  3 GRP_Age4_H11             18.955996               0                
+  4 GRP_TotalArea2_H11           1E-10               0     Lower BC   
+  5 GRP_TotalArea3_H11       14.772577               0                
+  6 GRP_TotalArea4_H11       82.296259               0                
+  7 GRP_Age2_H12              3.153407       11.706914                
+  8 GRP_Age3_H12              7.701989       11.847761                
+  9 GRP_Age4_H12                 1E-10        4.275656     Lower BC   
+ 10 GRP_TotalArea2_H12       19.142394      -11.847762                
+ 11 GRP_TotalArea3_H12           1E-10     1190.218867     Lower BC   
+ 12 GRP_TotalArea4_H12       16.055604       -0.117679                
+ 13 GRP_Age2_H13            159.413097        2.594682                
+ 14 GRP_Age3_H13            235.223316       -2.594682                
+ 15 GRP_Age4_H13            155.697624       -2.594682                
+ 16 GRP_TotalArea2_H13       94.220852        2.594682                
+ 17 GRP_TotalArea3_H13           1E-10        7.188140     Lower BC   
+ 18 GRP_TotalArea4_H13    9.999823E-11        1.115315     Lower BC   
+ 19 BIAS_H11                 -4.975104               0                
+ 20 BIAS_H12                  9.281907        0.186067                
+ 21 BIAS_H13                 79.439861        4.102552                
+ 22 H11_SalePrice          3332.636869    -3217.319680                
+ 23 H12_SalePrice          1881.549264    -1754.284280                
+ 24 H13_SalePrice         -2843.756688     1256.885057                
+ 25 BIAS_SalePrice               76533     -821.569957                
+
+Value of Objective Function = 170860228.74
+
+
+
+         First Order Lagrange Multipliers
+                         
+ 
+                                          Lagrange
+        Active Constraint               Multiplier
+
+ Lower BC       GRP_Age2_H11                     0
+ Lower BC       GRP_Age3_H11                     0
+ Lower BC       GRP_TotalArea2_H11               0
+ Lower BC       GRP_Age4_H12              4.275656
+ Lower BC       GRP_TotalArea3_H12     1190.218867
+ Lower BC       GRP_TotalArea3_H13        7.188140
+ Lower BC       GRP_TotalArea4_H13        1.115315
+
+
+  Projected Gradient
+ 
+     Free    Projected
+Dimension     Gradient
+
+        1            0
+        2            0
+        3            0
+        4    11.706914
+        5    11.847761
+        6   -11.847762
+        7    -0.117679
+        8     2.594682
+        9    -2.594682
+       10    -2.594682
+       11     2.594682
+       12            0
+       13     0.186067
+       14     4.102552
+       15 -3217.319680
+       16 -1754.284280
+       17  1256.885057
+       18  -821.569957

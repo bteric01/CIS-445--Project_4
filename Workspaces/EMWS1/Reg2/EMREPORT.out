@@ -1,0 +1,116 @@
+ 
+                                                                                                                                                                                                                                                                
+ 
+ 
+Fit Statistics
+
+Target=SalePrice Target Label=SalePrice
+
+   Fit
+Statistics    Statistics Label                           Train        Validation              Test
+
+ _AIC_        Akaike's Information Criterion           2454.15               .                 .  
+ _ASE_        Average Squared Error               164090655.09      281267023.37      296208647.12
+ _AVERR_      Average Error Function              164090655.09      281267023.37      296208647.12
+ _DFE_        Degrees of Freedom for Error              122.00               .                 .  
+ _DFM_        Model Degrees of Freedom                    7.00               .                 .  
+ _DFT_        Total Degrees of Freedom                  129.00               .                 .  
+ _DIV_        Divisor for ASE                           129.00            109.00            109.00
+ _ERR_        Error Function                    21167694506.95    30658105547.63    32286742536.35
+ _FPE_        Final Prediction Error              182920730.27               .                 .  
+ _MAX_        Maximum Absolute Error                  35887.42          63772.81          61979.77
+ _MSE_        Mean Square Error                   173505692.68      281267023.37      296208647.12
+ _NOBS_       Sum of Frequencies                        129.00            109.00            109.00
+ _NW_         Number of Estimate Weights                  7.00               .                 .  
+ _RASE_       Root Average Sum of Squares             12809.79          16771.02          17210.71
+ _RFPE_       Root Final Prediction Error             13524.82               .                 .  
+ _RMSE_       Root Mean Squared Error                 13172.16          16771.02          17210.71
+ _SBC_        Schwarz's Bayesian Criterion             2474.17               .                 .  
+ _SSE_        Sum of Squared Errors             21167694506.95    30658105547.63    32286742536.35
+ _SUMW_       Sum of Case Weights Times Freq            129.00            109.00            109.00
+ 
+                                                                                                                                                                                                                                                                
+ 
+ 
+Assessment Score Rankings
+
+Data Role=TRAIN Target Variable=SalePrice Target Label=SalePrice
+
+           Number of       Mean         Mean
+Depth    Observations     Target     Predicted
+
+   5          12         89818.33     90243.45
+  10           6         81728.17     83987.81
+  15          15         82275.53     81031.58
+  30           7         88088.86     79181.15
+  35           8         71639.13     78927.41
+  40          10         72544.70     77446.35
+  45          10         83003.00     77192.61
+  55           7         70772.00     73932.51
+  60           8         75440.00     73678.77
+  65           8         74124.25     72798.63
+  75          14         69266.43     70278.63
+  85           7         66740.57     68107.61
+  90          14         67726.50     67550.00
+ 100           3         66448.00     64593.77
+
+
+Data Role=VALIDATE Target Variable=SalePrice Target Label=SalePrice
+
+           Number of       Mean         Mean
+Depth    Observations     Target     Predicted
+
+   5          15         86685.67     90201.16
+  15           6         74015.33     83987.81
+  20           5         75656.40     81031.58
+  25           3         80887.33     79181.15
+  30           8         71106.00     77816.61
+  35          15         70330.07     77192.61
+  50           3         67090.33     73932.51
+  55          11         73472.00     73678.77
+  65           8         69379.25     72798.63
+  70          11         65092.64     71063.83
+  80           4         82518.00     69842.41
+  85           7         72290.43     68107.61
+  90           9         67718.33     67550.00
+ 100           4         61721.75     64593.77
+ 
+                                                                                                                                                                                                                                                                
+ 
+ 
+Assessment Score Distribution
+
+Data Role=TRAIN Target Variable=SalePrice Target Label=SalePrice
+
+                            Mean         Mean        Number of       Model
+ Range for Predicted       Target     Predicted    Observations      Score
+
+89081.494 -  90370.321    89818.33     90243.45         12         89725.91
+83926.184 -  85215.011    81728.17     83987.81          6         84570.60
+80059.702 -  81348.529    82275.53     81031.58         15         80704.12
+78770.874 -  80059.702    79315.67     79045.82         15         79415.29
+76193.219 -  77482.047    77773.85     77319.48         20         76837.63
+73615.564 -  74904.392    73261.60     73797.18         15         74259.98
+72326.737 -  73615.564    74124.25     72798.63          8         72971.15
+71037.909 -  72326.737    71160.20     71063.83          5         71682.32
+69749.082 -  71037.909    68214.33     69842.41          9         70393.50
+67171.427 -  68460.255    67397.86     67735.87         21         67815.84
+64593.772 -  65882.600    66448.00     64593.77          3         65238.19
+
+
+Data Role=VALIDATE Target Variable=SalePrice Target Label=SalePrice
+
+                            Mean         Mean        Number of       Model
+ Range for Predicted       Target     Predicted    Observations      Score
+
+89081.494 -  90370.321    86685.67     90201.16         15         89725.91
+83926.184 -  85215.011    74015.33     83987.81          6         84570.60
+80059.702 -  81348.529    75656.40     81031.58          5         80704.12
+78770.874 -  80059.702    78813.40     79079.65          5         79415.29
+76193.219 -  77482.047    70114.00     77265.11         21         76837.63
+73615.564 -  74904.392    72104.50     73733.14         14         74259.98
+72326.737 -  73615.564    69379.25     72798.63          8         72971.15
+71037.909 -  72326.737    65092.64     71063.83         11         71682.32
+69749.082 -  71037.909    82518.00     69842.41          4         70393.50
+67171.427 -  68460.255    69718.63     67793.95         16         67815.84
+64593.772 -  65882.600    61721.75     64593.77          4         65238.19
